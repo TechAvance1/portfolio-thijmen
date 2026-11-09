@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Thijmen Alvarez</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#inhoud">Direct naar de inhoud</a>
+    <header>
+        <p class="naam">Thijmen Alvarez</p>
+        <p>Mijn portfolio</p>
+    </header>
+    <nav aria-label="Hoofdnavigatie">
+            <a href="../index.html">Home</a>
+            <a href="over-mij.html">Over mij</a>
+            <a href="werkervaring.html">Werkervaring</a>
+            <a href="opleidingen.html">Opleidingen</a>
+            <a href="skills.html">Vaardigheden</a>
+            <a href="projecten.html">Projecten</a>
+            <a href="hobbys.html">Interesses</a>
+            <a href="ambities.html">Ambities</a>
+            <a href="faq.html">Veelgestelde vragen</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+            <a href="downloads.html">Downloads</a>
+            <a href="sitemap.html">Sitemap</a>
+    </nav>
+    <main id="inhoud">
+        <h1>Contact</h1>
+        <p>Op deze pagina staat een oefenformulier voor mijn schoolopdracht.</p>
+        <div class="split">
+        <section>
+        <h2>Contactgegevens</h2>
+        <p>Mijn privételefoonnummer en e-mailadres staan niet openbaar op dit portfolio. Wie mij via school of werk kent, kan mij daar aanspreken.</p>
+        <div class="note">
+        <strong>Oefenformulier</strong>
+        <p>Dit formulier hoort bij mijn HTML- en CSS-opdracht. Berichten worden niet verzonden of opgeslagen. Vul alleen fictieve gegevens in.</p>
+        </div>
+        </section>
+        <form action="contact.html#formulier" method="get" id="formulier">
+        <h2>Oefen met een bericht</h2>
+        <label for="naam">Naam</label>
+        <input id="naam" type="text" placeholder="Bijvoorbeeld: Alex" autocomplete="off">
+        <label for="email">E-mailadres</label>
+        <input id="email" type="email" placeholder="alex@example.com" autocomplete="off">
+        <label for="onderwerp">Onderwerp</label>
+        <select id="onderwerp">
+        <option>Een vraag over mijn portfolio</option>
+        <option>Feedback op de website</option>
+        <option>Een vraag over een project</option>
+        </select>
+        <label for="bericht">Bericht</label>
+        <textarea id="bericht" rows="5" placeholder="Schrijf hier een fictief bericht...">
+        </textarea>
+        <p class="small">Verzenden is niet beschikbaar: dit is een statisch formulier zonder server.</p>
+        <button type="button" disabled>Verzenden · oefenversie</button>
+        <button class="reset" type="reset">Velden leegmaken</button>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2026 Thijmen Alvarez | Schoolopdracht HTML en CSS</p>
+        <a href="sitemap.html">Overzicht van alle pagina’s</a>
+    </footer>
+</body>
+</html>

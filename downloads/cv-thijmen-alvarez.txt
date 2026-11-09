@@ -1,0 +1,35 @@
+CURRICULUM VITAE — THIJMEN ALVAREZ
+Berkel en Rodenrijs | November 2026
+
+PROFIEL
+Student Software Developer met interesse in programmeren, computerhardware,
+elektronica en 3D-printen. Ik leer graag door dingen te maken en te onderzoeken.
+
+OPLEIDING
+2026 – heden: Mbo 4 Software Developer, Techniek College Rotterdam.
+2026: Mbo niveau 2, diploma Eerste medewerker, cum laude behaald.
+2026: Dronebewijs A1/A3.
+
+WERKERVARING
+November 2025 – heden: Informatique, Berkel en Rodenrijs.
+Werkzaamheden in techniek en service: computerassemblage, klantcontact,
+apparaten aannemen en ondersteunen bij reparaties en service.
+
+VAARDIGHEDEN
+- HTML en CSS: in ontwikkeling tijdens mijn opleiding.
+- Python en Flask: eigen projecten en experimenten.
+- Hardware: praktijkervaring met assemblage en service.
+- Arduino, ESP32 en Raspberry Pi: eigen experimenten.
+- Blender, Fusion 360 en 3D-printen: hobbyervaring.
+- Klanten helpen en technische informatie begrijpelijk uitleggen.
+
+PROJECTEN EN INTERESSES
+Persoonlijk portfolio, Python/Flask-experimenten, microcontrollers,
+sensoren en 3D-printen. Daarnaast: hardlopen, drones, ruimtevaart en reizen.
+
+AMBITIE
+Groeien als softwareontwikkelaar en onderzoeken hoe ik techniek en
+ondernemen kan combineren.
+
+CONTACT
+Privécontactgegevens zijn niet opgenomen in deze openbare versie.

@@ -1,0 +1,114 @@
+/* Algemene opmaak */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #eeeeee;
+}
+
+/* Titel en menu staan op elke pagina */
+header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #315a7d;
+}
+
+header p { margin: 5px 0; }
+.naam { font-size: 28px; font-weight: bold; }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+nav a {
+    padding: 8px 12px;
+    color: #222;
+    text-decoration: none;
+}
+
+nav a:hover, nav a[aria-current="page"] {
+    background-color: #315a7d;
+    color: white;
+}
+
+/* Witte inhoud in het midden van de pagina */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+h1 { margin-top: 0; font-size: 28px; color: #315a7d; }
+h2 { margin-bottom: 10px; font-size: 21px; }
+p { margin-top: 0; }
+a { color: #245985; }
+section, article { margin-top: 25px; }
+img { max-width: 100%; height: auto; }
+.computer { display: block; margin: 25px auto; }
+.datum { margin-bottom: 5px; color: #555; }
+.timeline li { margin-bottom: 25px; }
+.sitemap li { margin-bottom: 10px; }
+
+/* Tabel met werkervaring */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; font-weight: bold; padding: 10px 0; }
+th, td { padding: 12px; border: 1px solid #aaa; text-align: left; vertical-align: top; }
+th { background-color: #e7edf2; }
+
+/* Vragen en formulier */
+details { padding: 15px 0; border-bottom: 1px solid #ccc; }
+summary { cursor: pointer; font-weight: bold; }
+details p { margin: 10px 0 0; }
+form { max-width: 550px; margin-top: 25px; }
+label { display: block; margin: 15px 0 5px; }
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    font: inherit;
+}
+textarea { resize: vertical; }
+button, .button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    background-color: #315a7d;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:disabled { background-color: #666; cursor: not-allowed; }
+.reset { margin-top: 10px; }
+.small { margin-top: 10px; font-size: 14px; }
+.note { padding: 15px; background-color: #edf2f5; }
+.note p { margin-bottom: 0; }
+
+footer { padding: 20px; text-align: center; font-size: 14px; }
+footer p { margin-bottom: 5px; }
+:focus-visible { outline: 3px solid #c26800; outline-offset: 3px; }
+.skip-link { position: absolute; top: -100px; left: 10px; background: white; padding: 10px; }
+.skip-link:focus { top: 10px; }
+
+/* Kleinere schermen, zoals een telefoon */
+@media (max-width: 600px) {
+    main { width: 94%; padding: 18px; margin: 15px auto; }
+    nav a { padding: 8px; font-size: 14px; }
+    h1 { font-size: 25px; }
+    .naam { font-size: 25px; }
+    th, td { padding: 8px; font-size: 14px; }
+}
